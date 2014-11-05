@@ -1,5 +1,6 @@
 [controller]
 controller ansible_ssh_host=172.17.0.18
+localhost
 
 [clients]
 client ansible_ssh_host=172.17.0.19
