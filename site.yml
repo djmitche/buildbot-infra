@@ -1,0 +1,8 @@
+---
+- hosts: all
+  tasks:
+  - name: ensure dustin's account exists
+    user: name=dustin
+  - name: ensure ewong's account exists
+    user: name=ewong
+
