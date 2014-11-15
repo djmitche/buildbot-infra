@@ -2,4 +2,5 @@
 - hosts: servicehosts
   roles:
   - base
+  - ansible
   - ssh

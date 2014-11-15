@@ -1,0 +1,15 @@
+---
+- name: install ansible
+  pkgng: name=ansible state=present
+
+- name: install git
+  pkgng: name=git state=present
+
+- name: set up /var/ansible
+  file: name=/var/ansible state=directory
+
+- name: check out buildbot-infra
+  git:
+    repo: https://github.com/djmitche/buildbot-infra
+    dest: /var/ansible/buildbot-infra
+    accept_hostkey: yes 
