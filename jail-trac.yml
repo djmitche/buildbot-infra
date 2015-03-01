@@ -7,3 +7,4 @@
   sudo: yes
   roles:
   - base
+  - dev-emails

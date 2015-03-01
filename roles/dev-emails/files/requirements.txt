@@ -1,0 +1,4 @@
+Twisted
+PyOpenSSL
+service_identity
+requests
